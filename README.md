@@ -35,10 +35,10 @@ resetGame();
 // 键盘控制（电脑）
 document.addEventListener('keydown',e=>{
     if(over) return;
-    if(e.key==='ArrowUp'&&dy!==1){dx=0;dy=-1}
-    if(e.key==='ArrowDown'&&dy!==-1){dx=0;dy=1}
-    if(e.key==='ArrowLeft'&&dx!==1){dx=-1;dy=0}
-    if(e.key==='ArrowRight'&&dx!==-1){dx=1;dy=0}
+    if(e.key==='W'&&dy!==1){dx=0;dy=-1}
+    if(e.key==='S'&&dy!==-1){dx=0;dy=1}
+    if(e.key==='A'&&dx!==1){dx=-1;dy=0}
+    if(e.key==='D'&&dx!==-1){dx=1;dy=0}
 })
 
 // 触屏滑动（手机）
